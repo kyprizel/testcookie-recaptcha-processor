@@ -20,7 +20,7 @@ Build nginx with testcookie-nginx-module, use example configuration.
 Run testcookie-recaptcha-processor, run nginx.
 
 
-EXAMPLE CONFIGURATION
+Example configuration
 =====================
 
     server {
