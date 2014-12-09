@@ -40,10 +40,11 @@ Example configuration
 
         location = /captcha {
             testcookie var;
-            proxy_pass http://127.0.0.1:10101/;
             proxy_set_header Testcookie-Value $testcookie_set;
             proxy_set_header Testcookie-Nexturl $testcookie_nexturl;
             proxy_set_header Testcookie-Name "BPC";
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_pass http://127.0.0.1:10101/;
         }
 
         location / {
