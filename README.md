@@ -1,23 +1,23 @@
-DESCRIPTION
+Description
 ===========
 
-    **testcookie-recaptcha-processor** is a simple web server proxying recaptcha responses to Google.
-    Server should be used with [testcookie-nginx-module](http://github.com/kyprizel/testcookie-nginx-module) for setting cookies after solving recaptchas.
+**testcookie-recaptcha-processor** is a simple web server proxying recaptcha responses to Google.
+Server should be used with [testcookie-nginx-module](http://github.com/kyprizel/testcookie-nginx-module) for setting cookies after solving recaptchas.
 
-NOTE
+Note
 ====
 
-    This project is Proof-of-Contept for those people, who ask me to add "Captcha functionality" to testcookie-nginx-module.
+This project is Proof-of-Contept for those people, who ask me to add "Captcha functionality" to testcookie-nginx-module.
 
-INSTALLATION
+Installation
 ============
 
-    Grab and install libraries:
-        *) pip install -r requirements.txt
-        *) start.sh
+Grab and install libraries:
+    *) pip install -r requirements.txt
+    *) start.sh
 
-    Build nginx with testcookie-nginx-module, use example configuration.
-    Run testcookie-recaptcha-processor, run nginx.
+Build nginx with testcookie-nginx-module, use example configuration.
+Run testcookie-recaptcha-processor, run nginx.
 
 
 EXAMPLE CONFIGURATION
@@ -60,19 +60,19 @@ EXAMPLE CONFIGURATION
     }
 
 
-SOURCES
+Sources
 =======
 
-    Available on github at [kyprizel/testcookie-recaptcha-processor]
-    (<http://github.com/kyprizel/testcookie-recaptcha-processor>).
+Available on github at [kyprizel/testcookie-recaptcha-processor]
+(<http://github.com/kyprizel/testcookie-recaptcha-processor>).
 
-BUGS
+Bugs
 ====
 
-    Feel free to report bugs and send patches to kyprizel@gmail.com
-    or use github's issue tracker(<http://github.com/kyprizel/testcookie-recaptcha-processor/issues>).
+Feel free to report bugs and send patches to kyprizel@gmail.com
+or use github's issue tracker(<http://github.com/kyprizel/testcookie-recaptcha-processor/issues>).
 
-COPYRIGHT & LICENSE
+Copyright & License
 ===================
 
     Copyright (C) 2012 Eldar Zaitov (kyprizel@gmail.com).
