@@ -40,6 +40,7 @@ Example configuration
 
         location = /captcha {
             testcookie var;
+            proxy_set_header Testcookie-Domain "domain.com";
             proxy_set_header Testcookie-Value $testcookie_set;
             proxy_set_header Testcookie-Nexturl $testcookie_nexturl;
             proxy_set_header Testcookie-Name "BPC";
