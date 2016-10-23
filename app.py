@@ -36,7 +36,7 @@ def handler():
     nexturl = request.headers.get('Testcookie-Nexturl', '/')
     cookie_name = request.headers.get('Testcookie-Name')
     cookie_val = request.headers.get('Testcookie-Value')
-    secret = settings.RE_SECRETS.get(domaiin)
+    secret = settings.RE_SECRETS.get(domain)
     if not cookie_name or not cookie_val or not secret:
         abort(500)
     ip = get_client_addr()
